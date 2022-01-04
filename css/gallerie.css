@@ -1,0 +1,152 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.group {
+    width: 120px;
+    height: 92px;
+    border-radius: 3px;
+    margin: 0 5px 5px 0;
+    border: 1px solid transparent;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.group_berline p {
+    padding: 64px 0 10px;
+    background: transparent url("../img/produit/berline.svg") no-repeat 50% 23px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.group_utilitaire p {
+    padding: 64px 0 10px;
+    background: transparent url("../img/produit/utilitares.svg") no-repeat 50% 23px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.group_compact p {
+    padding: 64px 0 10px;
+    background: transparent url("../img/produit/compact.png") no-repeat 50% 23px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.group_camion p {
+    padding: 64px 0 10px;
+    background: transparent url("../img/produit/camion.png") no-repeat 50% 23px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.group_chantier p {
+    padding: 64px 0 10px;
+    background: transparent url("../img/produit/chantier.png") no-repeat 50% 23px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.group_citadine p {
+    padding: 64px 0 10px;
+    background: transparent url("../img/produit/citadine.png") no-repeat 50% 23px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.group_motor p {
+    padding: 64px 0 10px;
+    font-size: 16px;
+    text-align: center;
+    background: transparent url("../img/produit/motor.png") no-repeat 50% 23px;
+}
+
+.group a {
+    color: black;
+}
+
+.flex-container-gallerie-parent {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: column;
+    margin: 10%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.flex-item-child {
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+}
+
+.detail {
+    width: 45%;
+    float: left;
+}
+
+.detail h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0;
+    text-align: left;
+}
+
+.detail p {
+    width: 65%;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.image-detail {
+    width: 55%;
+    float: right;
+    text-align: center;
+    font-size: 180px;
+}
+
+.flex-item-child hr {
+    border-top: 1px solid #ff7d19;
+    width: 100%;
+}
+
+.image-detail-imag {
+    max-width: 350px;
+    max-height: 200px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.reserve {
+    width: 20%;
+    display: flex;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: orange;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.reserve a {
+    color: black;
+    font-size: 25px;
+}
+
+.reserve a:hover {
+    color: white;
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.display-for-desktop {
+    display: none;
+}
+
+.display-for-mobile {
+    display: block;
+    background-color: rgb(245, 186, 119);
+}
+
+.log {
+    top: 6px;
+    padding-left: 20px;
+    color: white;
+}
+
+
+/* start  code de menu */
+
+.Menu-mobile {
+    position: absolute;
+    top: 26px;
+    right: 30px;
+}
+
+header input {
+    display: none;
+}
+
+.fa-bars {
+    font-size: 36px;
+    transform: scaleX(1.5);
+    color: white;
+}
+
+
+/* start  show  menu */
+
+.show-menu {
+    display: none;
+}
+
+#Menu:checked+.show-menu {
+    display: block;
+}
+
+li a {
+    color: rgb(20, 2, 2);
+    border-radius: 16px;
+    width: 117px;
+    font-size: 22px;
+    padding-left: 20px;
+    display: block;
+}

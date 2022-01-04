@@ -1,0 +1,62 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.section_1 h1 {
+    font-size: 30px;
+    line-height: 5.4;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.section_2 {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ma_contact_parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ma_contact_child input,
+.ma_contact_child select {
+    width: 360px;
+    height: 33px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    border: 1px solid #f89c67;
+    padding-left: 3px;
+}
+
+.ma_contact_child .ho {
+    color: rgb(19, 1, 1);
+    background-color: #ff9900;
+}
+
+.ho:hover {
+    color: #ff9900;
+    background-color: white;
+}
+
+@media (max-width: 342px) {
+    .ma_contact_child input {
+        height: 33px;
+        border: 1px solid #f89c67;
+        background-color: #f5f5f5;
+        padding-left: 3px;
+        width: 96%;
+    }
+    .ma_contact_child select {
+        width: 100%;
+    }
+    .section_1 h1 {
+        font-size: 15px;
+        line-height: 5.4;
+        text-align: center;
+        background-color: #f5f5f5;
+    }
+}
